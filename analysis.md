@@ -231,13 +231,13 @@ La estrategia utilizada fue limitar las velocidades máximas y reducir la veloci
 **¿Qué combinación de ganancias produjo el mejor resultado?**
 
 La mejor combinación de ganancias fue la del Caso C, con k_linear = 2.0 y k_angular = 6.0. Esta configuración obtuvo el menor tiempo de llegada, el menor error final y no presentó oscilaciones. Aunque sus ganancias son más agresivas, el controlador mantuvo un comportamiento estable y eficiente durante la trayectoria.
----
+
 
 ### Evaluate Solutions
 
 **¿Qué controlador tuvo mejor desempeño y por qué?**
 
-El controlador con mejor desempeño fue el caso ____ porque logró alcanzar la meta con bajo error final, tiempo razonable, trayectoria eficiente y pocas oscilaciones. Esto indica que sus ganancias fueron suficientemente altas para lograr una buena rapidez, pero no tan agresivas como para generar inestabilidad.
+El controlador que tuvo mejor desempeño fue el Caso C, con k_linear = 2.0 y k_angular = 6.0. Esta configuración obtuvo el menor tiempo de llegada, con 2.3972 s, y también el menor error final, con 0.0885. Además, la distancia recorrida fue prácticamente igual a la del Caso B y no se detectaron oscilaciones. Esto indica que, aunque sus ganancias son más agresivas, el controlador logró llegar más rápido a la meta sin perder estabilidad.
 
 **¿Qué trade-offs observaste entre rapidez y estabilidad?**
 
