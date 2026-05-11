@@ -237,7 +237,7 @@ La mejor combinación de ganancias fue la del Caso C, con k_linear = 2.0 y k_ang
 
 **¿Qué controlador tuvo mejor desempeño y por qué?**
 
-El controlador que tuvo mejor desempeño fue el Caso C, con k_linear = 2.0 y k_angular = 6.0. Esta configuración obtuvo el menor tiempo de llegada, con 2.3972 s, y también el menor error final, con 0.0885. Además, la distancia recorrida fue prácticamente igual a la del Caso B y no se detectaron oscilaciones. Esto indica que, aunque sus ganancias son más agresivas, el controlador logró llegar más rápido a la meta sin perder estabilidad.
+El principal trade-off observado fue que al aumentar las ganancias el sistema responde más rápido, pero existe el riesgo de generar movimientos bruscos u oscilaciones. Sin embargo, en esta prueba el Caso C mantuvo cero oscilaciones, por lo que fue la mejor opción entre las tres configuraciones evaluadas.
 
 **¿Qué trade-offs observaste entre rapidez y estabilidad?**
 
